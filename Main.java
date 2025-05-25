@@ -62,12 +62,11 @@ public class Main {
 				break;
 				
 			case 0:
-	            System.out.println("Đã thoát chương trình.");
-	            break;
+			        System.out.println("Đã thoát chương trình.");
+			        break;
 	
-	        default:
-	            System.out.println("Lựa chọn không hợp lệ. Vui lòng nhập từ 0 đến 6.");
-	            break;
+	        	default:
+	            		System.out.println("Lựa chọn không hợp lệ. Vui lòng nhập từ 0 đến 6.");
 			}
 		} while(luaChon != 0);
 		scanner.close();
